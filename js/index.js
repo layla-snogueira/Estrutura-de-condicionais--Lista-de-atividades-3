@@ -69,7 +69,7 @@ const velocidade = 84;
 const velocidadepermitida = 80;
 
 if (velocidade > velocidadepermitida){
-    console.log (`Você estava à ${velocidade}, a velocidade máxima permitida é de ${velocidadepermitida}, portanto dua multa é no valor de:$ ${(velocidade-velocidadepermitida)*5}`)
+    console.log (`Você estava à ${velocidade}, a velocidade máxima permitida é de ${velocidadepermitida}, portanto dua multa é no valor de:$ ${(velocidade-velocidadepermitida)*5}`);
 }else{
-    console.log ('Você está dentro da velocidade permitida, tenha uma boa viagem!')
+    console.log ('Você está dentro da velocidade permitida, tenha uma boa viagem!');
 }
